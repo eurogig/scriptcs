@@ -1,0 +1,10 @@
+{
+  covAnalyzeArgs : [
+    "--fb-include",
+    "coverity-default",
+    "--security",
+    "--webapp-security-trial"
+  ],
+  fileOptions : [],
+  fileCheckerOptions : []
+}

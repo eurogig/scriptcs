@@ -51,7 +51,7 @@ namespace ScriptCs.Tests
                 scriptHostFactory.Setup(f => f.CreateScriptHost(It.IsAny<IScriptPackManager>(), It.IsAny<string[]>()))
                     .Returns<IScriptPackManager, string[]>((p, q) => new ScriptHost(p, new ScriptEnvironment(q)));
 
-                var session = new SessionState<ScriptState> { Session = CSharpScript.Run("") };
+                var session = new SessionState<ScriptState> { Session = CSharpScript.Run("me") };
                 scriptPackSession.State[CommonScriptEngine.SessionKey] = session;
 
                 // Act
