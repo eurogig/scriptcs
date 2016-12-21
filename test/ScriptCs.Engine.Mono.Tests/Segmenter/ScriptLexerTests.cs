@@ -11,7 +11,7 @@ namespace ScriptCs.Engine.Mono.Tests.Segmenter
             [Fact]
             public void ShouldIdentifyIdentifiersAsToken()
             {
-                const string Code = " id ";
+                const string Code = " id2 ";
 
                 var lexer = new ScriptLexer(Code);
                 var token = lexer.GetToken();

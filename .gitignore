@@ -116,3 +116,4 @@ UpgradeLog*.XML
 artifacts
 /scriptcs_packages
 /.cov
+/data-coverity/v8.6.0/config
